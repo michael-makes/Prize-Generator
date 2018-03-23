@@ -1,3 +1,5 @@
-$("button").click(function(){
-    $("p").text("Hello world!");
+jQuery(document).ready(function($) {
+  $("button").click(function(){
+      $("p").text("Hello world!");
+  });
 });
