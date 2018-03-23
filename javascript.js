@@ -1,5 +1,3 @@
-jQuery(document).ready(function($) {
-
 var myArray = [
   "Apples",
   "Bananas",
@@ -8,6 +6,7 @@ var myArray = [
 
 var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
 
+jQuery(document).ready(function($) {
   $("button").click(function(){
       $("p").text(randomItem);
   });
